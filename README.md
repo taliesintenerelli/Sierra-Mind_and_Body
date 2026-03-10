@@ -227,25 +227,3 @@ This exposes `http://localhost:8000` at a public URL like `https://abcd1234.ngro
 
 Logs will appear in the terminal (`[RECEIVED]`, `[CLASSIFIER]`, `[PROCESSOR]`, `[MACRO]`, `[WEIGHT]`).
 
----
-
-### Files to keep private (do not commit)
-
-When pushing to GitHub, **do not commit**:
-
-- `.env`
-- `service-account.json` (or any Google Cloud credentials)
-- `users.json` (real phone numbers + sheet IDs)
-- Any other files containing secrets, tokens, or personal information.
-
-You can safely commit:
-
-- `server.py`
-- `macro_logger.py`
-- `weight.py`
-- `requirements.txt`
-- `staples.json` and `staples/README.md`
-- `start_server.bat`, `start_ngrok.bat`
-- `.env.example`
-- `users.example.json`
-

@@ -1,0 +1,29 @@
+{
+  "tilapia": {
+    "serving": "112 g",
+    "calories": 110,
+    "protein": 23
+  },
+  "salmon": {
+    "serving": "168 g (1 filet)",
+    "calories": 220,
+    "protein": 38
+  },
+  "egg whites": {
+    "serving": "46 g",
+    "calories": 25,
+    "protein": 5
+  },
+  "greek yogurt": {
+    "aliases": ["yogurt"],
+    "serving": "170 g",
+    "calories": 100,
+    "protein": 18
+  },
+  "shrimp": {
+    "serving": "112 g",
+    "calories": 80,
+    "protein": 18
+  }
+}
+

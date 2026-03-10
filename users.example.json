@@ -1,0 +1,11 @@
+{
+  "+15555550123": {
+    "name": "Example User One",
+    "google_sheet_id": "your-google-sheet-id-here"
+  },
+  "+15555550124": {
+    "name": "Example User Two",
+    "google_sheet_id": "another-google-sheet-id-here"
+  }
+}
+

@@ -227,3 +227,23 @@ This exposes `http://localhost:8000` at a public URL like `https://abcd1234.ngro
 
 Logs will appear in the terminal (`[RECEIVED]`, `[CLASSIFIER]`, `[PROCESSOR]`, `[MACRO]`, `[WEIGHT]`).
 
+## SMS Consent
+
+Users opt in to receive SMS messages from Sierra Mind and Body – SMS Macro & Weight Logger 
+by sending a message to the Twilio phone number associated with the application.
+
+The application is designed for personal health logging. Users send messages such as 
+food logs, calorie logs, weight, or body fat entries via SMS.
+
+Example messages:
+- "180.5 lbs"
+- "200 calories and 20g protein"
+- "protein shake and a cookie"
+
+By initiating a message to the application, the user consents to receive SMS responses 
+related to their logged data or system confirmations.
+
+Message frequency varies depending on user activity.
+
+Users may opt out at any time by replying STOP.
+Standard message and data rates may apply.
